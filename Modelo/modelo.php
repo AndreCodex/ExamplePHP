@@ -2,8 +2,8 @@
 // Conexión a la base de datos
 function dbConnect() {
     $servername = "localhost";
-    $username = "root";
-    $password = "root2023";
+    $username = "app_uess";
+    $password = "PasswordSeguro123!";
     $dbname = "universidaduess";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
